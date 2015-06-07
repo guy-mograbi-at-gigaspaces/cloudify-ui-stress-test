@@ -13,8 +13,8 @@ source $VE_NAME/bin/activate
 pip install cloudify
 sudo apt-get install git -y
 
-mkdir eden
-cd eden
+mkdir test
+cd test
 cfy init
 git clone https://github.com/cloudify-cosmo/cloudify-manager-blueprints
 cfy local install-plugins -p cloudify-manager-blueprints/openstack/openstack-manager-blueprint.yaml
